@@ -1,0 +1,36 @@
+{
+  "name": "bragg-dynamodb",
+  "version": "0.0.0",
+  "description": "DynamoDB middleware for bragg",
+  "license": "MIT",
+  "repository": "SamVerschueren/bragg-dynamodb",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bragg",
+    "framework",
+    "dynamodb",
+    "event",
+    "middleware",
+    "aws",
+    "lambda"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "object-assign": "^4.0.1",
+    "xo": "*"
+  }
+}
