@@ -15,12 +15,12 @@ $ npm install --save bragg-dynamodb
 ## Usage
 
 ```js
-var app = require('bragg')();
-var router = require('bragg-router')();
-var dynamodb = require('bragg-dynamodb');
+const app = require('bragg')();
+const router = require('bragg-router')();
+const dynamodb = require('bragg-dynamodb');
 
 // Listen for events triggered by the `MyTable` and `MyTableDev` table
-router.post('dynamodb:MyTable', function (ctx) {
+router.post('dynamodb:MyTable', ctx => {
 	ctx.body = ctx.request.body;
 });
 
