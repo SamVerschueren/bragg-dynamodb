@@ -27,12 +27,8 @@
     "aws",
     "lambda"
   ],
-  "dependencies": {},
   "devDependencies": {
     "ava": "*",
     "xo": "*"
-  },
-  "xo": {
-    "esnext": true
   }
 }
