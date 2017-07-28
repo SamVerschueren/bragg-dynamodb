@@ -16,6 +16,7 @@ module.exports = opts => {
 			});
 
 			ctx.request.body = messages;
+			ctx.request.params = {table};
 			Object.defineProperty(ctx, 'path', {enumerable: true, value: `dynamodb:${(opts[table] || table)}`});
 			Object.defineProperty(ctx, 'method', {enumerable: true, value: 'post'});
 		}

@@ -21,6 +21,9 @@ const dynamodb = require('bragg-dynamodb');
 
 // Listen for events triggered by the `MyTable` and `MyTableDev` table
 router.post('dynamodb:MyTable', ctx => {
+	console.log(ctx.request.params.table);
+	// `MyTable`
+
 	ctx.body = ctx.request.body;
 });
 
