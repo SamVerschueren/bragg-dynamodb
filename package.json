@@ -1,6 +1,6 @@
 {
   "name": "bragg-dynamodb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "DynamoDB middleware for bragg",
   "license": "MIT",
   "repository": "SamVerschueren/bragg-dynamodb",
